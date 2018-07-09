@@ -21,3 +21,5 @@ const r = 25;
 // 6. What is the absolute value of p - q? (Find out how to do absolute value by searching online.)
 
 // 7. Find another math operation we haven't talked about yet on the MDN (Mozilla Developer Network) and try it out below.
+// Author: Jesus Barrera
+consle.log(91/13);
