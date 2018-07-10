@@ -1,3 +1,4 @@
+//jesus Barrera
 // We will write a program to find the factors of quadratic equations using the quadratic formula
 // Recall that a quadratic equation has the form a*x^2 + b*x + c = 0
 // For more see: https://en.wikipedia.org/wiki/Quadratic_equation

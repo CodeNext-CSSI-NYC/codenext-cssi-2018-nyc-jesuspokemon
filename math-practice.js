@@ -9,9 +9,9 @@ const q = 60;
 const r = 25;
 
 // 1. Is 91 divisible by 13? (The answer should be either true or false)
-
+console.log(91 / 13);
 // 2. What is the result when the q divided by r is rounded to the nearest integer?
-
+console.log(q / r);
 // 3. Is the product of p and r greater than q squared? (The answer should be either true or false)
 
 // 4. What is the remainder when the sum of q and r is divided by p?
@@ -22,4 +22,3 @@ const r = 25;
 
 // 7. Find another math operation we haven't talked about yet on the MDN (Mozilla Developer Network) and try it out below.
 // Author: Jesus Barrera
-consle.log(91/13);
