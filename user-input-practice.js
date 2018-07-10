@@ -15,4 +15,10 @@ console.log( username + " hello your name has 5 letters" + "!");
 // var n = str.length:
 // 3. Ask the user to enter any word, and print out "The word ____ starts with the letter ___", but with the blanks filled in. Not sure how to get the first letter of a string in JavaScript? ...
 
+var readline = require("readline-sync");
+var username = readline.question("Please enter any word: ");
+name = username
+var answer = username.charAt(0)
+console.log( "Hello the word " + username + " starts with the letter " + answer);
+
 // 4. Ask the user to enter two numbers, and print out "The average of ___ and ___ is ____", but with the blanks filled in.

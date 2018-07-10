@@ -9,7 +9,9 @@
 // var readline = require("readline-sync");
 // var username = readline.question("Please enter your name: ");
 // console.log( username + " hello your name has 5 letters" + "!");
-var readline = require("readline-sync");
-var username = readline.question("Please enter any word: ");
-var answer =
-console.log( "Hello the word " + username + " starts with the letter " + answer);
+
+// var readline = require("readline-sync");
+// var username = readline.question("Please enter any word: ");
+// name = username
+// var answer = username.charAt(0)
+// console.log( "Hello the word " + username + " starts with the letter " + answer);
