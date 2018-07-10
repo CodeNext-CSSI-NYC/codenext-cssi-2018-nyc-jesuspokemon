@@ -15,3 +15,8 @@
 // name = username
 // var answer = username.charAt(0)
 // console.log( "Hello the word " + username + " starts with the letter " + answer);
+var readline = require("readline-sync");
+var username = readline.question("Please enter your name: ");
+name = username
+var answer = username.charAt(0)
+console.log( "Hello " + username + " your name starts with the letter " + answer);
