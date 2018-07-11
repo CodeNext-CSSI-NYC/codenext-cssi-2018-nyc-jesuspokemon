@@ -53,9 +53,9 @@
 
 let readline = require("readline-sync");
 
-let Letter = parseFloat(readline.question("Please enter any number: "));
+let letter = parseFloat(readline.question("Please enter any number: "));
 
-if (Letter == a || e || i || o || u) {
+if (letter == a ) || (letter == e ) || (letter == i) || o || u) {
   console.log("This number is a vowel: ");
 } else {
   console.log("This number is a odd number: ");
