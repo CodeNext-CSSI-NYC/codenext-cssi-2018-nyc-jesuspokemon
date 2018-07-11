@@ -51,15 +51,15 @@
 // 4. Ask the user to enter a letter and tell them if it is a vowel or consonant
 
 
-let readline = require("readline-sync");
-
-let letter = parseFloat(readline.question("Please enter any number: "));
-
-if (letter == a ) || (letter == e ) || (letter == i) || o || u) {
-  console.log("This number is a vowel: ");
-} else {
-  console.log("This number is a odd number: ");
-}
+// let readline = require("readline-sync");
+//
+// let letter = parseFloat(readline.question("Please enter any number: "));
+//
+// if(letter == a ) || (letter == e ) || (letter == i) || (letter == o) || (letter == u) {
+//   console.log("This number is a vowel: ");
+// } else {
+//   console.log("This number is a odd number: ");
+// }
 
 
 // 5. Ask the user to enter a year, and tell them if it was a leap year.
