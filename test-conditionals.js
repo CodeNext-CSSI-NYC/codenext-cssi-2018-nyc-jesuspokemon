@@ -53,20 +53,55 @@
 
 // let readline = require("readline-sync");
 //
-// let letter = parseFloat(readline.question("Please enter any number: "));
+// let letter = (readline.question("Please enter any letter: "));
 //
-// if(letter == a ) || (letter == e ) || (letter == i) || (letter == o) || (letter == u) {
-//   console.log("This number is a vowel: ");
+// if ((letter == "a") || (letter == "e") || (letter == "i") || (letter == "o") || (letter == "u")) {
+//   console.log("This letter is a vowel: ");
 // } else {
-//   console.log("This number is a odd number: ");
+//   console.log("This letter is a consonant: ");
 // }
 
 
 // 5. Ask the user to enter a year, and tell them if it was a leap year.
 // (You can use Google if you're not sure when leap years happen.)
 
+
+// let readline = require("readline-sync");
+//
+// let num = parseFloat(readline.question("enter any year: "));
+//
+// if ((num % 4) == 0) {
+//   console.log("This year is a leap year: ");
+// } else if ((num % 4) >= 0) {
+//   console.log("This year is not a leap year: ");
+// }
+
+
 // 6. Ask the user if they have been a citizen for at least 9 years (yes or no), ask them their age, and ask if they live in New York state.
 // If they answer yes, their age is above 30, and yes, then tell them they can run for senate in NY. Otherwise, say that they cannot.
+
+
+const readline = require("readline-sync");
+
+console.log("so you want to run for senate in New York well here are some questions to see if you can")
+
+const citizen = readline.question("Have you been a citizen for at least 9 years? yes or no: ");
+if(citizen == "yes") {
+    let age = readline.question(" how old are you? ");
+    if(age > 30) {
+        let live = readline.question("do you live in new york yes or no");
+        if(live == "yes") {
+          console.log("CONGRATULATIONS you can run for senate in New York")
+        } else if (live == "no") {
+          console.log("im sorry,you have must live in New York in order to run for the senate in New york, try again when you live in New York")
+        }
+    } else if (age <= 30){
+        console.log("im sorry, you are too young, you cant run for the senate in New York, try again when you are over 30.");
+    }
+} else if (citizen == "no") {
+  console.log("im sorry, you need to be a citizen to run for senate in New York, try again when you are a citizen")
+}
+
 
 // 7. Write a program that asks the user to enter a whole number 1-7 and prints out the corresponding day of the week.
 // If you want another challenge, look up how to use switch statements and use a switch instead of if-else for this.
