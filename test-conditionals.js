@@ -104,5 +104,6 @@ if(citizen == "yes") {
 
 
 // 7. Write a program that asks the user to enter a whole number 1-7 and prints out the corresponding day of the week.
+  console.log("day 4 is thursday: ");
 // If you want another challenge, look up how to use switch statements and use a switch instead of if-else for this.
 // Note that we usually don't bother with switch statements unless there are more than a few elses.
