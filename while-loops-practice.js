@@ -58,6 +58,7 @@ while (guess != "play") {
 }
 if (guess = "play") {
   console.log("||||||||||||||||JjjJ|||||||||||||||")
+  console.log("||||||||||||||||    |||||||||||||||")
   console.log("|||||||     ____            |||||||")
   console.log("|||||||    |    )           |||||||")
   console.log("ww|||||     o  o            |||||||")

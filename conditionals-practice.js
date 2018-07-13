@@ -9,15 +9,16 @@
 //   console.log("sorry, your guess is too high");
 // }
 
-
-if(x == 2) {
-  console.log("x is 2");
-} else if(x == 3) {
-  console.log("x is 3");
-} else {
-  console.log("x is neither 2 nor 3");
-}
-
+// var readline = require("readline-sync");
+// var x = readline.question("Please type a number from 1 to 10: ");
+// if(x == 2) {
+//   console.log("x is 2");
+// } else if(x == 3) {
+//   console.log("x is 3");
+// } else {
+//   console.log("x is neither 2 nor 3");
+// }
+//
 
 // const readline = require("readline-sync");
 // const sport = readline.question("Do you like basketball or football: ");
@@ -39,7 +40,8 @@ if(x == 2) {
 //   console.log("i dont care if you like any other sport, if you have to choose bettween basketball or football which would you use")
 // }
 
-
+// var readline = require("readline-sync");
+// var x = readline.question("Please type a number from 1 to 10: ");
 // x = 2
 // if(x === 2){
 //   console.log("scooby dooby doo!");
