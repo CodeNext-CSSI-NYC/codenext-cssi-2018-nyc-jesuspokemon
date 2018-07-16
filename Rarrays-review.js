@@ -45,7 +45,7 @@ var blank = []
 // Add a few items to the array one at a time using push.
 function add(word) {
   blank.push(word)
-  console.log(blank)
+    console.log(blank)
 }
 add("bob")
 add("max")
@@ -111,8 +111,8 @@ var squares = []
 // Set up a for loop that will iterate (go through) the array.
 for (let n = 0; n < sixnum.length; n++) {
   squares.push(sixnum[n]** 2)
-  console.log(squares)
 }
+console.log(squares)
 // Do NOT use the number 6 (or 5) in your for loop.
 // Instead, use the length of the array in the condition portion (the 2nd part) of the for loop.
 // (Yes, this is the same as the last 2 times. This is super important.)
@@ -132,9 +132,8 @@ var reverse = []
 for (let n = sixnum.length - 1; n >= 0; n--) {
          //Either one will work
 // for (let n = sixnum.length; n > -1; n--) {
-  console.log(sixnum[n])
+  reverse.push(sixnum[n])
 }
-
 // This means, rather than i = 0; i < arr.length; i++
 // You will instead do: i = arr.length - 1; i >= 0; i--
 // Make sure that you 110% understand that previous line, because it is very important. Ask questions.
@@ -144,9 +143,9 @@ for (let n = sixnum.length - 1; n >= 0; n--) {
 // At the end, print out both the original and new array.
 // Assuming your original array was [2,6,4,3,1,7] ...
 // When it is done running, you should see [7, 1, 3, 4, 6, 2] (it was reversed!)
-
-
-
+console.log(sixnum)
+console.log(reverse)
+console.log("Yay the order of the numbers was reversed")
 // 8. Make a new empty array.
 // Ask the user how many letters they would like to type in.
 // Use a for loop to loop that many times.
@@ -168,8 +167,15 @@ for (let n = sixnum.length - 1; n >= 0; n--) {
 
 // 10. We will make a deck of cards -- sort of.
 // Create an empty array called deck.
+var deck = []
 // Make a for loop that goes from 1 to 13.
+for (let d = 1; d < 14; d++) {
 // Inside that for loop make another for loop that goes from 1 to 4.
+  for (let j = 1; j < 5; j++){
+    var str = ""
+    if (d = 2)
+  }
+}
 // Do NOT use i for both for loops! You can use j if you want.
 // Inside the inner for loop:
 // Create an empty string
