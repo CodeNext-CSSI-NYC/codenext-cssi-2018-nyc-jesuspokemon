@@ -171,9 +171,10 @@ var deck = []
 // Make a for loop that goes from 1 to 13.
 for (let d = 1; d < 14; d++) {
 // Inside that for loop make another for loop that goes from 1 to 4.
-  for (let j = 1; j < 5; j++){
+  for (let j = 1; j < 5; j++) {
     var str = ""
-    if (d = 2)
+    str += d
+    console.log(str)
   }
 }
 // Do NOT use i for both for loops! You can use j if you want.
