@@ -90,9 +90,7 @@ for (let f = 0; f < food.length; f++) {
 // 5. Make an array that contains five cities.
 var city = ["New York", "Boston", "Seattle", "LA", "San Diego"]
 // Set up a for loop that will iterate (go through) the array.
-for (let c = 0; c < food.length + 1; c++) {
-  console.log([c], city[c])
-}
+for (let c = 0; c < city.length; c++) {
 // Do NOT use the number 5 (or 4) in your for loop.
 // Instead, use the length of the array in the condition portion (the 2nd part) of the for loop.
 // (Yes, this is the same as last time. This is super important.)
@@ -104,10 +102,17 @@ for (let c = 0; c < food.length + 1; c++) {
 // 2: Seattle
 // 3: LA
 // 4: San Diego
-
+  console.log([c], city[c])
+}
 // 6. Make an array that contains six numbers.
+var sixnum = [2, 6, 4, 3, 1, 7]
 // Also make a new, separate empty array called squares.
+var squares = []
 // Set up a for loop that will iterate (go through) the array.
+for (let n = 0; n < sixnum.length; n++) {
+  squares.push(sixnum[n]** 2)
+  console.log(squares)
+}
 // Do NOT use the number 6 (or 5) in your for loop.
 // Instead, use the length of the array in the condition portion (the 2nd part) of the for loop.
 // (Yes, this is the same as the last 2 times. This is super important.)
@@ -120,8 +125,16 @@ for (let c = 0; c < food.length + 1; c++) {
 
 
 // 7. Make an array that contains six numbers. Feel free to use the same one.
+var sixnum = [2, 6, 4, 3, 1, 7]
 // Also make a new, separate empty array called reverse.
+var reverse = []
 // Set up a for loop that will iterate (go through) the array, but BACKWARDS.
+for (let n = sixnum.length - 1; n >= 0; n--) {
+         //Either one will work
+// for (let n = sixnum.length; n > -1; n--) {
+  console.log(sixnum[n])
+}
+
 // This means, rather than i = 0; i < arr.length; i++
 // You will instead do: i = arr.length - 1; i >= 0; i--
 // Make sure that you 110% understand that previous line, because it is very important. Ask questions.
