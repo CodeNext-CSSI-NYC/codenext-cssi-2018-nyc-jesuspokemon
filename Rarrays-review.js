@@ -173,10 +173,19 @@ for (let d = 1; d < 14; d++) {
 // Inside that for loop make another for loop that goes from 1 to 4.
   for (let j = 1; j < 5; j++) {
     var str = ""
-    str += d
-    console.log(str)
+    if (d >= 2 || d <=10) {
+      str += d
+    } else (d = 1) {
+      str += A
+    } else (d = 11) {
+      str += J
+    } else (d = 12) {
+      str += Q
+    } else (d = 13)
+      str += K
   }
 }
+console.log(str)
 // Do NOT use i for both for loops! You can use j if you want.
 // Inside the inner for loop:
 // Create an empty string
