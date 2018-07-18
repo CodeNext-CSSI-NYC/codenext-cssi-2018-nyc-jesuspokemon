@@ -69,29 +69,6 @@
 // The function should return true if the string is found somewhere in the array, and false otherwise.
 // Test it using the fruits array, including cases with fruits that are there
 // and other cases with fruits that are not.
-// function search(fruit) {
-//   let fruits = [
-//     ["apple", "banana", "grape"],
-//     ["peach", "raspberry", "papaya"],
-//     ["apricot", "cherry", "pineapple"],
-//     ["watermelon", "nectarine", "tangerine"],
-//     ["mango", "strawberry", "blueberry"]
-//   ];
-//   for (row = 0; row < fruits.length; row++) {
-//     for (colum = 0; colum < fruits[0].length; colum++) {
-//       if (fruit == (fruits[row][colum])) {
-//         console.log("True" + fruit + "is in the 2D-array called fruits")
-//       } else if (fruit != (fruits[row][colum])) {
-//         console.log("False" + fruit + "is not in the 2D-array called fruits")
-//       }
-//     }
-//   }
-// }
-//
-// search("apple")
-// search("kiwi")
-
-// and other cases with fruits that are not.
 function search(fruit) {
   let fruits = [
     ["apple", "banana", "grape"],
@@ -102,18 +79,34 @@ function search(fruit) {
   ];
   for (row = 0; row < fruits.length; row++) {
     for (colum = 0; colum < fruits[0].length; colum++) {
+      if (fruit == (fruits[row][colum])) {
+        console.log("True " + fruit + " is in the 2D-array called fruits")
+      }
     }
   }
-  if (fruit == (fruits[row][colum])) {
-    console.log("True" + fruit + "is in the 2D-array called fruits")
-  } else if (fruit != (fruits[row][colum])) {
-    console.log("False" + fruit + "is not in the 2D-array called fruits")
-  }
 }
+console.log("False the fruit is not in the 2D-array called fruits")
+
 search("apple")
 search("kiwi")
-// if (fruit == (fruits[row][colum])) {
-//   console.log("True" + fruit + "is in the 2D-array called fruits")
-// } else if (fruit != (fruits[row][colum])) {
-//   console.log("False" + fruit + "is not in the 2D-array called fruits")
+// and other cases with fruits that are not.
+// function search2(fruit) {
+//   let fruits = [
+//     ["apple", "banana", "grape"],
+//     ["peach", "raspberry", "papaya"],
+//     ["apricot", "cherry", "pineapple"],
+//     ["watermelon", "nectarine", "tangerine"],
+//     ["mango", "strawberry", "blueberry"]
+//   ];
+//   for (row = 0; row < fruits.length; row++) {
+//     for (colum = 0; colum < fruits[0].length; colum++) {
+//     }
+//   if (fruit == (fruits[row][colum])) {
+//     console.log("True " + fruit + " is in the 2D-array called fruits")
+//   } else if (fruit != (fruits[row][colum])) {
+//     console.log("False " + fruit + " is not in the 2D-array called fruits")
+//   }
+//   }
 // }
+// search("apple")
+// search("kiwi")
