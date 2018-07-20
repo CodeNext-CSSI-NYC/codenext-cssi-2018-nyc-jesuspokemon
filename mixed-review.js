@@ -39,8 +39,8 @@
 // 2. Write a function that takes in a number and returns the sum of all the numbers
 // from 1 to num.
 function sumUpTo(num) {
-  var sum = {}
-  for (i = 1; num = 2; num--) {
+  var sum = []
+  for (i = 1; i = num ; num--) {
   }
 }
 sumUpto(10)
